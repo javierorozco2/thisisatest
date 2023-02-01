@@ -15,6 +15,7 @@
 		BA1EE04C2989E69B006E515C /* thisisatestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1EE04B2989E69B006E515C /* thisisatestUITests.swift */; };
 		BA1EE04E2989E69B006E515C /* thisisatestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1EE04D2989E69B006E515C /* thisisatestUITestsLaunchTests.swift */; };
 		BA53456F298A397C00001390 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA53456E298A397C00001390 /* Question.swift */; };
+		BA534571298A429B00001390 /* ChoiseTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA534570298A429B00001390 /* ChoiseTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		BA1EE04B2989E69B006E515C /* thisisatestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thisisatestUITests.swift; sourceTree = "<group>"; };
 		BA1EE04D2989E69B006E515C /* thisisatestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thisisatestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BA53456E298A397C00001390 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		BA534570298A429B00001390 /* ChoiseTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiseTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				BA1EE0302989E69A006E515C /* thisisatestApp.swift */,
 				BA1EE0322989E69A006E515C /* ContentView.swift */,
+				BA534570298A429B00001390 /* ChoiseTextView.swift */,
 				BA53456E298A397C00001390 /* Question.swift */,
 				BA1EE0342989E69B006E515C /* Assets.xcassets */,
 				BA1EE0362989E69B006E515C /* Preview Content */,
@@ -262,6 +265,7 @@
 			files = (
 				BA53456F298A397C00001390 /* Question.swift in Sources */,
 				BA1EE0332989E69A006E515C /* ContentView.swift in Sources */,
+				BA534571298A429B00001390 /* ChoiseTextView.swift in Sources */,
 				BA1EE0312989E69A006E515C /* thisisatestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -38,12 +38,7 @@ struct ContentView: View {
                         print("Tapped on choise 1")
                         
                     }, label: {
-                        Text(question.possibleAnswers[0])
-                            .font(.body)
-                            .bold()
-                            .multilineTextAlignment(.center)
-                            .padding()
-                            .border(accentColor, width: 4)
+                        ChoiseTextView(choicetext: question.possibleAnswers[0])
                     })
                     
                     // -------Quest 2
@@ -51,12 +46,7 @@ struct ContentView: View {
                         print("Tapped on choise 1")
                         
                     }, label: {
-                        Text(question.possibleAnswers[1])
-                            .font(.body)
-                            .bold()
-                            .multilineTextAlignment(.center)
-                            .padding()
-                            .border(accentColor, width: 4)
+                        ChoiseTextView(choicetext: question.possibleAnswers[1])
                     })
                     
                     // -------Quest 3
@@ -64,12 +54,7 @@ struct ContentView: View {
                         print("Tapped on choise 1")
                         
                     }, label: {
-                        Text(question.possibleAnswers[2])
-                            .font(.body)
-                            .bold()
-                            .multilineTextAlignment(.center)
-                            .padding()
-                            .border(accentColor, width: 4)
+                        ChoiseTextView(choicetext: question.possibleAnswers[2])
                     })
                     
                     // -------Quest 4
@@ -77,12 +62,7 @@ struct ContentView: View {
                         print("Tapped on choise 1")
                         
                     }, label: {
-                        Text(question.possibleAnswers[3])
-                            .font(.body)
-                            .bold()
-                            .multilineTextAlignment(.center)
-                            .padding()
-                            .border(accentColor, width: 4)
+                        ChoiseTextView(choicetext: question.possibleAnswers[3])
                     })
                 }
                 
